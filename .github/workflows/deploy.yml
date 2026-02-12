@@ -4,7 +4,7 @@ name: CI/CD Deploy Java App to Tomcat10 on EC2
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
